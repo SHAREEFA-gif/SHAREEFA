@@ -5,24 +5,23 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif; /* New font */
   line-height: 1.6;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #faf6f0; /* Warm light background */
+  color: #2c3e50;
 }
 
 header {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: #16a085; /* Teal header */
   color: white;
-  padding: 25px 0;
+  padding: 20px 0;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 header h1 {
   margin-bottom: 10px;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 nav ul {
@@ -35,33 +34,34 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #ffe082;
+  color: #ffe082; /* Golden hover */
 }
 
 section {
-  padding: 50px 20px;
+  padding: 40px 20px;
   max-width: 900px;
   margin: auto;
 }
 
-h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  color: #2575fc;
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #16a085; /* Teal section headings */
 }
 
 .project {
-  background: white;
+  background: #fff;
   margin-top: 20px;
-  padding: 20px;
-  border-left: 5px solid #2575fc;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  padding: 15px;
+  border-left: 5px solid #1abc9c; /* Teal border */
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 form input,
@@ -71,26 +71,34 @@ form textarea {
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #1abc9c; /* Teal focus */
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.4);
 }
 
 form button {
-  padding: 12px 25px;
-  background: #2575fc;
+  padding: 12px 20px;
+  background: #1abc9c; /* Teal button */
   color: white;
   border: none;
-  border-radius: 6px;
   cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
   transition: background 0.3s ease;
 }
 
 form button:hover {
-  background: #1a5ad8;
+  background-color: #16a085; /* Darker teal hover */
 }
 
 footer {
   text-align: center;
-  background: #333;
+  background: #16a085;
   color: white;
   padding: 15px 0;
   margin-top: 30px;
